@@ -1,0 +1,64 @@
+.title-blog {
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 107.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #5FD788;
+
+
+    & {
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+.blog-section--box {
+    display: flex;
+    gap: 24px;
+    margin-left: 139px;
+    margin-top: 39px;
+}
+
+.blog-contend {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.create-your--title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    margin-left: 23px;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #5FD788;
+    width: 325px;
+    height: 52px;
+}
+
+.paragraph-create--your {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    margin-top: 22px;
+    margin-left: 23px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4B5563;
+    width: 325px;
+    height: 58px;
+}
+
+.line-three--dot {
+    background: #F3F4F6;
+    margin-top: 11px;
+    width: 310px;
+    height: 1.13px;
+    margin-left: 20px;
+}

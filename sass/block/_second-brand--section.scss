@@ -1,0 +1,44 @@
+ .second-brand--section {
+    margin-top: 115px;
+}
+
+.second-section--img {
+    background-image:url(/img/Trends\ \(1\).png);
+    width: 260px;
+    height: 570px;
+    margin-top: -25px;
+    background-repeat: no-repeat;
+}
+
+.second-card-box {
+    margin-left: 290px;
+    
+}
+
+.second-card-box1 {
+    margin-left: 15px;
+}
+
+.second-card--img__box {
+    display: flex;
+    position: absolute;
+    width: 377px;
+    height: 91px;
+    top: 3730px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12.5px);
+    border-radius: 0px 20px;
+}
+
+.second-card-btn {
+    display: flex;
+    gap: 5px;
+    margin-left: 981px;
+    margin-top: -91px;
+
+    & {
+        li {
+            list-style-type: none;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.header {
+    width: 1400px;
+    height: 69px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12.5px);
+
+    @media (max-width:$tablet) {
+        width: 998px;
+        height: 69px;
+        position: fixed;
+        z-index: 2;
+        display: flex;
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12.5px);
+    }
+}
+
+// .humburger {
+//     @media (max-width:$phone) {
+        
+//     }
+// }
+
+.site-header {
+    position: absolute;
+}
+
+.site-header.site-header {
+    position: absolute;
+    width: 75px;
+    left: 104px;
+    top: 22px;
+
+    @media (max-width:$tablet) {
+        position: absolute;
+        display: inline-block;
+        width: 100px;
+        height: 18px;
+        left: 49px;
+        top: 26px;
+    }
+}
+
+.site--logo {
+    text-decoration: none;
+    display: block;
+}
+
+.site-icons {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 4.85px;
+}
+
+.header-navbar {
+    position: absolute;
+    left: 670px;
+    top: 26px;
+    &{
+        ul {
+            gap: 10px;
+            display: flex;
+        }
+        li {
+            list-style-type: none;
+        }
+        a {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 135%;
+            color: #1F2937;
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width:$tablet) {
+        position: absolute;
+        left: 307px;
+        top: 30px;
+        }
+}
+
+.header-searches {
+    position: absolute;
+    width: 42px;
+    left: 1280px;
+    top: 25.45px;
+
+    @media (max-width:$tablet) {
+        position: absolute;
+        left: 900px;
+        top: 30px;
+    }
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+}

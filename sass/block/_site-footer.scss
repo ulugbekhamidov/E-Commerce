@@ -1,0 +1,88 @@
+.site-footer {
+    background: #F3F4F6;
+    border: 0.5px solid #F3F4F6;
+    height: 228px;
+    width: 1349px;
+    margin-top: 71px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.logo-footer {
+    margin-left: 103px;
+    margin-top: 22px;
+}
+
+.fot-navbar {
+    margin-left: 315px;
+    margin-top: 22px;
+
+    & {
+        nav {
+            display: flex;
+            gap: 86px;
+        }
+        li {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 135%;
+            color: #5FD788;
+        }
+    }
+}
+
+.logo-about {
+    position: relative;
+    left: -24px;
+}
+
+.paragraph-fot--box {
+    gap: 39px;
+    margin-left: 530px;
+}
+
+.paragraph-cards--box {
+
+    & {
+        p {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 135%;
+            text-align: center;
+            color: #9CA3AF;
+        }
+    }
+}
+
+.paragraph-fot--box {
+    display: flex;
+}
+
+.reserved-cards {
+    margin-left: 540px;
+    margin-top: 54px;
+
+    & {
+        p {
+            width: 322px;
+            height: 32px;
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 135%;
+            text-align: center;
+            color: #6B7280;
+        }
+    }
+}
