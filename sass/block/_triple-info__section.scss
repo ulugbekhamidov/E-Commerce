@@ -4,6 +4,15 @@
 
 .triple-info--improve {
     margin-top: 376px;
+
+    @media (max-width:$tablet) {
+        margin-left: -250px;
+        margin-top: 217px;
+    }
+
+    @media (max-width:$phone) {
+        margin-left: -350px;
+    }
 }
 
 .improvle-title {
@@ -17,6 +26,21 @@
     text-align: right;
     letter-spacing: 0.01em;
     color: #5FD788;
+
+    @media (max-width:$tablet) {
+        font-size: 40px;
+    }
+
+    @media (max-width:$phone) {
+        width: 375px;
+        height: 58px;
+        font-size: 20px;
+        line-height: 107.9%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        margin-top: 100px;
+        margin-left: -78px;
+    }
 }
 
 .paragraph-improvex {
@@ -31,6 +55,16 @@
     line-height: 140%;
     text-align: right;
     color: #9CA3AF;
+
+    @media (max-width:$phone) {
+        width: 263px;
+        height: 103px;
+        font-size: 12px;
+        line-height: 140%;
+        text-align: center;
+        margin-left: -35px;
+        margin-top: 15px;
+    }
 }
 
 .btn-explore {
@@ -49,4 +83,34 @@
     margin-left: 300px;
     margin-top: 24px;
     display: inline-block;
+
+    @media (max-width:$phone) {
+        margin-left: -35px;
+        margin-top: -15px;
+    }
+}
+
+.triple-img--box {
+    @media (max-width:$phone) {
+        background-image: url(/img/Blob\ phone.png);
+        background-repeat:no-repeat;
+        width: 342px;
+        height: 604px;
+        margin-left: 293px;
+        margin-top: 82px;
+    }
+}
+
+.triple-img {
+
+    @media (max-width:$tablet) {
+        width: 552px;
+        height: 604px;
+    }
+
+    @media (max-width:$phone) {
+        width: 165.27px;
+        height: 157.38px;
+        margin-left: 23px;
+    }
 }

@@ -1,5 +1,11 @@
 .brand-site--section__box {
     display: flex;
+
+    @media (max-width:$tablet) {
+        display: grid;
+        margin-left: 234px;
+        // margin-top: 118px;
+    }
 }
 
 .brand-section--box {
@@ -7,6 +13,23 @@
     height: 614px;
     background-repeat: no-repeat;
     background-image: url(/img/Frame\ \(1\).png);
+
+    @media (max-width:$tablet) {
+        margin-left: -252px;
+    }
+
+    @media (max-width:$phone) {
+        background-image: url(/img/Frame\ phone.png);
+        background-repeat:no-repeat;
+        width: 229px;
+        height: 324px;
+        margin-left: 50px;
+        margin-top: -87px;
+    }
+
+    @media (max-width:$phone) {
+       padding-left: 380px; 
+    }
 }
 
 .title-bestsellers {
@@ -20,6 +43,20 @@
     margin-top: 200px;
     margin-left: 96px;
     width: 276px;
+
+    @media (max-width:$tablet) {
+        margin-left: 390px;
+    }
+
+    @media (max-width:$phone) {
+        font-size: 36px;
+        line-height: 107.9%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        position: absolute;
+        left: -125px;
+        top: 2290px;
+    }
 }
 
 .btn-shop--all {
@@ -41,6 +78,16 @@
     display: inline-block;
     margin-left: 96px;
     margin-top: 18px;
+
+    @media (max-width:$tablet) {
+        margin-left: 365px;
+    }
+
+    @media (max-width:$phone) {
+        position: absolute;
+        left: -115px;
+        top: 2529px;
+    }
 }
 
 .card-img--box {
@@ -52,6 +99,37 @@
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(12.5px);
     border-radius: 0px 20px;
+
+    @media (max-width:$tablet) {
+        position: absolute;
+        top: 3215px;
+    }
+
+    @media (max-width:$phone) {
+        position: absolute;
+        top: 3075px;
+    }
+}
+
+.card-img--box1 {
+    display: flex;
+    position: absolute;
+    width: 377px;
+    height: 91px;
+    top: 2475px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12.5px);
+    border-radius: 0px 20px;
+
+    @media (max-width:$tablet) {
+        position: absolute;
+        top: 3685px;
+    }
+
+    @media (max-width:$phone) {
+        position: absolute;
+        top: 3500px;
+    }
 }
 
 .site-card--box {
@@ -61,10 +139,30 @@
 
 .card-box {
     margin-left: 120px;
+
+    @media (max-width:$tablet) {
+        margin-left: 64px;
+        margin-top: -145px;
+    }
+
+    @media (max-width:$phone) {
+        margin-top: 37px;
+        margin-left: -28px;
+    }
 }
 
 .card-box1 {
     margin-left: 15px;
+
+    @media (max-width:$tablet) {
+        margin-left: 64px;
+        margin-top: 80px;
+    }
+
+    @media (max-width:$phone) {
+        margin-top: 37px;
+        margin-left: -28px;
+    }
 }
 
 .site-card--title {
@@ -140,6 +238,16 @@
         li {
             list-style-type: none;
         }
+    }
+
+    @media (max-width:$tablet) {
+        margin-left: 459px;
+        margin-top: 60px;
+    }
+
+    @media (max-width:$phone) {
+        margin-left: 370px;
+        margin-top: 30px;
     }
 }
 

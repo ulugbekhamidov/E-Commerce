@@ -4,10 +4,30 @@
     height: 228px;
     width: 1349px;
     margin-top: 71px;
+
+    @media (max-width:$tablet) {
+        width: 982px;
+        height: 485px;
+    }
+
+    @media (max-width:$phone) {
+        width: 760px;
+        height: 540px;
+    }
+}
+
+.site-logo--box {
+    @media (max-width:$phone) {
+        margin-left: 251px;
+    }
 }
 
 .footer-nav {
     display: flex;
+
+    @media (max-width:$phone) {
+        display: grid;
+    }
 }
 
 .logo-footer {
@@ -15,15 +35,20 @@
     margin-top: 22px;
 }
 
+.footer-navbar {
+    display: flex;
+    gap: 58px;
+
+    @media (max-width:$tablet) {
+        display: grid;
+    }
+}
+
 .fot-navbar {
     margin-left: 315px;
     margin-top: 22px;
 
     & {
-        nav {
-            display: flex;
-            gap: 86px;
-        }
         li {
             list-style-type: none;
         }
@@ -39,9 +64,34 @@
     }
 }
 
+.logo-support {
+    @media (max-width:$tablet) {
+        margin-left: 44px;
+    }
+
+    @media (max-width:$phone) {
+        margin-left: -5px;
+    }
+}
+
 .logo-about {
-    position: relative;
-    left: -24px;
+    margin-left: 25px;
+
+    @media (max-width:$tablet) {
+        margin-left: 65px;
+    }
+
+    @media (max-width:$phone) {
+        margin-left: -5px;
+    }
+}
+
+.logo-customer {
+    margin-left: 42px;
+
+    @media (max-width:$phone) {
+        margin-left: -5px;
+    }
 }
 
 .paragraph-fot--box {
@@ -62,27 +112,35 @@
             color: #9CA3AF;
         }
     }
-}
 
-.paragraph-fot--box {
-    display: flex;
+    @media (max-width:$tablet) {
+        margin-left: -105px;
+    }
+
+    @media (max-width:$phone) {
+        text-align: center;
+        margin-left: -290px;
+    }
 }
 
 .reserved-cards {
-    margin-left: 540px;
+    margin-left: 560px;
     margin-top: 54px;
+    width: 322px;
+    height: 32px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 135%;
+    text-align: center;
+    color: #6B7280;
 
-    & {
-        p {
-            width: 322px;
-            height: 32px;
-            font-family: 'SF Pro Display';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 135%;
-            text-align: center;
-            color: #6B7280;
-        }
+    @media (max-width:$tablet) {
+        margin-left: 346px;
+    }
+
+    @media (max-width:$phone) {
+        margin-left: 232px;
     }
 }

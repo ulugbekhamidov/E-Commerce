@@ -7,9 +7,17 @@
 .container {
     margin: 0 auto;
     max-width:$desktop-l;
+}
 
+.container {
     @media (max-width:$tablet) {
-        margin: 0 auto;
+        max-width: $tablet;
+    }
+}
+
+.container {
+    @media (max-width:$phone) {
+        max-width: $phone;
     }
 }
 

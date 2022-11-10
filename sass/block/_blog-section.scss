@@ -14,6 +14,20 @@
             list-style-type: none;
         }
     }
+
+    @media (max-width:$tablet) {
+        margin-top: 130px;
+        margin-left: -40px;
+    }
+
+    @media (max-width:$phone) {
+        margin-top: 35px;
+        font-size: 50px;
+        line-height: 107.9%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        margin-left: 25px;
+    }
 }
 
 .blog-section--box {
@@ -21,12 +35,49 @@
     gap: 24px;
     margin-left: 139px;
     margin-top: 39px;
+
+    @media (max-width:$tablet) {
+        display: grid;
+        margin-left: 302px;
+    }
+
+    @media (max-width:$phone) {
+        margin-left: 292px;
+    }
 }
 
 .blog-contend {
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    width: 371px;
+    height: 395px;
+
+    @media (max-width:$tablet) {
+        margin-top: 72px;
+        height: 667px;
+        width: 371px;
+    }
+
+    @media (max-width:$phone) {
+        width: 205px;
+        height: 370px;
+    }
+}
+
+.create-blog--img {
+    width: 371px;
+    height: 203px;
+
+    @media (max-width:$tablet) {
+        width: 371px;
+        height: 344px;
+    }
+
+    @media (max-width:$phone) {
+        width: 205px;
+        height: 191px;
+    }
 }
 
 .create-your--title {
@@ -40,6 +91,22 @@
     color: #5FD788;
     width: 325px;
     height: 52px;
+
+    @media (max-width:$tablet) {
+        width: 325px;
+        height: 88px;
+        font-size: 24px;
+        line-height: 135%;
+        margin-top: 37px;
+    }
+
+    @media (max-width:$phone) {
+        width: 180px;
+        height: 49px;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 20px;
+    }
 }
 
 .paragraph-create--your {
@@ -53,6 +120,18 @@
     color: #4B5563;
     width: 325px;
     height: 58px;
+
+    @media (max-width:$tablet) {
+        margin-top: 38px;
+    }
+
+    @media (max-width:$phone) {
+        font-size: 12px;
+        line-height: 150%;
+        width: 180px;
+        height: 55px;
+        margin-top: 6px;
+    }
 }
 
 .line-three--dot {
@@ -61,4 +140,10 @@
     width: 310px;
     height: 1.13px;
     margin-left: 20px;
+
+    @media (max-width:$phone) {
+        width: 167px;
+        height: 2px;
+        margin-top: 25px;
+    }
 }

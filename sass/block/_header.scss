@@ -8,7 +8,7 @@
     backdrop-filter: blur(12.5px);
 
     @media (max-width:$tablet) {
-        width: 998px;
+        width: 982px;
         height: 69px;
         position: fixed;
         z-index: 2;
@@ -16,13 +16,36 @@
         background: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(12.5px);
     }
+
+    @media (max-width:$phone) {
+        width: 768px;
+        height: 69px;        
+    }
 }
 
-// .humburger {
-//     @media (max-width:$phone) {
-        
-//     }
-// }
+.hamburger {
+    @media (max-width:$phone) {
+        &::after,
+        &::before {
+            content: "";
+            width: 25px;
+            height: 3px;
+            background-color: #000;
+            display: block;
+            margin: 5px 0;            
+        }
+
+        position: absolute;
+        left: 640px;
+        top: 30px;
+    }
+}
+
+input[type="checkbox"]:checked + .header-navbar ul {
+    transform: translateX(0);
+    transition: 0.4s ease;
+}
+
 
 .site-header {
     position: absolute;
@@ -54,10 +77,14 @@
     left: 0%;
     right: 0%;
     top: 4.85px;
+
+    @media (max-width:$phone) {
+       margin-left: 35px;
+    }
 }
 
 .header-navbar {
-    position: absolute;
+    position: relative;
     left: 670px;
     top: 26px;
     &{
@@ -83,7 +110,28 @@
         position: absolute;
         left: 307px;
         top: 30px;
+    }
+
+    @media (max-width:$phone) {
+        position: absolute;
+        ul {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            background-color: #fff;
+            transform: translateX(-100%);
+            transition: 0.4s ease;
+            height: 100vh;
+            width: 200px;
+            left: -310px;
+            top: -29px;
+            gap: 25px;
         }
+        a{
+            font-size: 24px;
+            margin-left: 25px;
+        }
+    }
 }
 
 .header-searches {
@@ -96,6 +144,10 @@
         position: absolute;
         left: 900px;
         top: 30px;
+    }
+
+    @media (max-width:$phone) {
+        display: none;
     }
 }
 
