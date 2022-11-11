@@ -11,13 +11,13 @@
 
 .container {
     @media (max-width:$tablet) {
-        max-width: $tablet;
+        max-width:$tablet;
     }
 }
 
 .container {
     @media (max-width:$phone) {
-        max-width: $phone;
+        max-width:$phone;
     }
 }
 
